@@ -6,7 +6,9 @@ import com.example.core.member.MemberServiceImpl;
 import com.example.core.member.MemoryMemberRepository;
 import com.example.core.order.OrderService;
 import com.example.core.order.OrderServiceImpl;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.FilterType;
 
 @Configuration
 public class AppConfig {
